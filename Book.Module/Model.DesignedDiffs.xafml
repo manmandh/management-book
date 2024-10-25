@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Book">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@fb562a49-5dba-4355-91d6-79672d8c92d7" Caption="Quản lí" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@0f5e6b25-5f6c-4626-ab12-fe735e9fc720" ViewId="Categories_ListView" Caption="Thể loại" ImageName="BO_Report" IsNewNode="True" />
+          <Item Id="@11c8055a-87a3-4553-b7a6-cbc8f3d5f063" ViewId="Employees_ListView" Caption="Nhân viên" ImageName="BO_Department" IsNewNode="True" />
+          <Item Id="@14b2fc2b-d3dc-459a-b726-3a429b61d184" ViewId="Product_Categories_ListView" Caption="Phân loại sản phẩm" ImageName="DifferentOddEvenPages" IsNewNode="True" />
+          <Item Id="@1d70af68-67ae-4d68-a12d-422fbd7707e2" ViewId="Warehouse_ListView" Caption="Kho" ImageName="Actions_Home" IsNewNode="True" />
+          <Item Id="@38560618-cb9a-446e-b60f-3e314124178a" ViewId="Inventory_ListView" Caption="Tồn kho" ImageName="BO_Product" IsNewNode="True" />
+          <Item Id="@422f0a8b-b15c-407c-8a36-6a6c6fea4b97" ViewId="Suppliers_ListView" Caption="Nhà cung cấp" ImageName="BO_Position" IsNewNode="True" />
+          <Item Id="@a0314299-200d-4c5f-ab77-3d0e570986d8" ViewId="Purchase_Details_ListView" Caption="Chi tiết đặt hàng" ImageName="ActionGroup_EasyTestRecorder" IsNewNode="True" />
+          <Item Id="@bd2950ee-1b77-4fb8-b6e0-03afc7c73227" ViewId="Products_ListView" Caption="Sản phẩm" ImageName="Actions_Book" IsNewNode="True" />
+          <Item Id="@ca5ae244-0b1e-490c-a9ec-7a5c1c7842ae" ViewId="Bill_Details_ListView" Caption="Chi tiết hóa đơn" ImageName="Actions_Book" IsNewNode="True" />
+          <Item Id="@d0e7a43e-54c9-4f78-835d-1af119df7514" ViewId="Customers_ListView" Caption="Khách hàng" ImageName="BO_Customer" IsNewNode="True" />
+          <Item Id="@d62c1833-423f-48fb-ae00-3f897f9d24c3" ViewId="Purchases_ListView" Caption="Mua hàng" ImageName="BO_Sale" IsNewNode="True" />
+          <Item Id="@de1bbe49-d5aa-431c-b6e7-76d1264c2f29" ViewId="Debt_Reports_ListView" Caption="Báo cáo công nợ" ImageName="BO_Contract" IsNewNode="True" />
+          <Item Id="@e780d886-ddd7-4f51-a196-c280ab3ffc66" ViewId="Bills_ListView" Caption="Hóa đơn" ImageName="BO_KPI_Scorecard" IsNewNode="True" />
+          <Item Id="@f81d01ac-48a2-4523-804d-f54ac65777f0" ViewId="Value_Added_Tax_Bills_ListView" Caption="Hóa đơn VAT" ImageName="TaskList" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="Bill_Details_ListView" AllowEdit="True" />
+    <ListView Id="Bills_Debt_Reportss_ListView" AllowEdit="True" />
+    <ListView Id="Bills_ListView" AllowEdit="True" />
+    <ListView Id="Categories_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Customers_ListView" AllowEdit="True" />
+    <ListView Id="Employees_ListView" AllowEdit="True" />
+    <ListView Id="Inventory_ListView" AllowEdit="True" />
+    <ListView Id="Product_Categories_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Products_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Purchase_Details_ListView" AllowEdit="True" />
+    <ListView Id="Purchases_ListView" AllowEdit="True" />
+    <ListView Id="Suppliers_ListView" AllowEdit="True" />
+    <ListView Id="Value_Added_Tax_Bills_ListView" AllowEdit="True" />
+    <ListView Id="Warehouse_ListView" AllowEdit="True" />
+  </Views>
+</Application>
